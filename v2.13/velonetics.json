@@ -7028,7 +7028,7 @@
         },
         "read_buffer_size": {
           "title": "Read buffer size",
-          "description": "Connections buffer network input and output to reduce the number of system calls when reading messages. You can set the maximum buffer size for reading in bytes.\n\nSee: https://github.com/velonetics/velonetics-ce/blob/main/docs/websockets.md",
+          "description": "Reserved for future use. Parsed for compatibility but not applied by the current WebSocket driver (github.com/coder/websocket).\n\nSee: https://github.com/velonetics/velonetics-ce/blob/main/docs/websockets.md",
           "default": 1024,
           "type": "integer"
         },
@@ -7053,13 +7053,13 @@
         },
         "timeout": {
           "title": "Timeout",
-          "description": "Sets the read timeout for the backend. After a read has timed out, the websocket connection is terminated and Velonetics will try to reconnect according the `backoff_strategy`. Minimum accepted time is one minute. This flag only applies when you use ' enable_direct_communication`.\n\nSee: https://github.com/velonetics/velonetics-ce/blob/main/docs/websockets.md",
+          "description": "Per-read timeout on client and backend WebSocket connections. When a read times out, the connection is closed; in multiplex mode Velonetics reconnects according to `backoff_strategy`.\n\nSee: https://github.com/velonetics/velonetics-ce/blob/main/docs/websockets.md",
           "default": "5m",
           "$ref": "#/$defs/https:~1~1velonetics.io~1schema~1v2.13~1timeunits.json/$defs/timeunit"
         },
         "write_buffer_size": {
           "title": "Write buffer size",
-          "description": "Connections buffer network input and output to reduce the number of system calls when writing messages. You can set the maximum buffer size for writing in bytes.\n\nSee: https://github.com/velonetics/velonetics-ce/blob/main/docs/websockets.md",
+          "description": "Reserved for future use. Parsed for compatibility but not applied by the current WebSocket driver (github.com/coder/websocket).\n\nSee: https://github.com/velonetics/velonetics-ce/blob/main/docs/websockets.md",
           "default": 1024,
           "type": "integer"
         },
@@ -8014,7 +8014,11 @@
           "title": "Catalog definition",
           "description": "The paths to the different `.pb` files you want to load, or the paths to directories containing `.pb` files. All content is scanned in the order of the list, and after fetching all files it resolves the dependencies of their imports. The order you use here is not important to resolve imports, but it matters when there are conflicts (different files using the same namespace and package type).\n\nSee: https://velonetics.io/docs/enterprise/grpc/server/",
           "examples": [
-            [ "./grpc/flights.pb", "./grpc/definitions", "/etc/velonetics/grpc" ]
+            [
+              "./grpc/flights.pb",
+              "./grpc/definitions",
+              "/etc/velonetics/grpc"
+            ]
           ],
           "type": "array",
           "items": {
