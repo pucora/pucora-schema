@@ -22,7 +22,7 @@
           "client_name": {
             "title": "Client name",
             "description": "You can set how this connection shows in Redis when listing all the connections `CONN LIST`",
-            "examples": [ "velonetics_pool" ],
+            "examples": [ "pucora_pool" ],
             "type": "string"
           },
           "conn_max_idle_time": {

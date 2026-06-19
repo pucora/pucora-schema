@@ -688,7 +688,7 @@
         "user": {
           "title": "User",
           "description": "The username you will send as NTLM authentication user.\n\nSee: https://pucora.io/docs/enterprise/authentication/ntlm/",
-          "examples": [ "veloneticsclient" ],
+          "examples": [ "pucoraclient" ],
           "type": "string"
         }
       },
@@ -5010,7 +5010,7 @@
         "documentation/openapi": {
           "$ref": "#/definitions/https%3A~1~1pucora.io~1schema~1v2.7~1documentation~1openapi.json"
         },
-        "github_com/pucora/velonetics-influx": {
+        "github_com/pucora/pucora-influx": {
           "$ref": "#/definitions/https%3A~1~1pucora.io~1schema~1v2.7~1telemetry~1influx.json"
         },
         "grpc": {

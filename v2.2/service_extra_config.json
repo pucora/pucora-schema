@@ -16,7 +16,7 @@
     "documentation/openapi": {
       "$ref": "documentation/openapi.json"
     },
-    "github_com/pucora/velonetics-influx": {
+    "github_com/pucora/pucora-influx": {
       "$ref": "telemetry/influx.json"
     },
     "modifier/lua-endpoint": {

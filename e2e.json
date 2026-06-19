@@ -9,7 +9,7 @@
       "@comment": "Makes sure that the debug endpoint returns a status ok",
       "in": {
         "header": {
-          "User-Agent": "velonetics-e2e-tool"
+          "User-Agent": "pucora-e2e-tool"
         },
         "method": "GET",
         "url": "http://localhost:8080/__debug/something"

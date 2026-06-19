@@ -432,7 +432,7 @@
                     "extra_config": {
                         "plugin/req-resp-modifier": {
                             "name": [
-                                "velonetics-debugger"
+                                "pucora-debugger"
                             ],
                             "ip-filter": {
                                 "allow": false,
@@ -841,7 +841,7 @@
                 },
                 "plugin/req-resp-modifier": {
                     "name": [
-                        "velonetics-debugger"
+                        "pucora-debugger"
                     ]
                 }
             }
@@ -1631,7 +1631,7 @@
             "password": "your-influxdb-password",
             "@extra_comment": "here"
         },
-        "github_com/pucora/velonetics-influx": {
+        "github_com/pucora/pucora-influx": {
             "address": "http://192.168.99.9:8086",
             "ttl": "25s",
             "buffer_size": 0,

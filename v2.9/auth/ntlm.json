@@ -17,7 +17,7 @@
       "$id": "#auth/ntlm/user",
       "title": "User",
       "description": "The username you will send as NTLM authentication user.\n\nSee: https://pucora.io/docs/enterprise/authentication/ntlm/",
-      "examples": [ "veloneticsclient" ],
+      "examples": [ "pucoraclient" ],
       "type": "string"
     }
   },

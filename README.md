@@ -28,7 +28,7 @@ To use this schema add the `$schema` attribute in your configuration files. Ther
 
 Replace the `v2.3` in the URL by the Pucora version you are using.
 
-![IDE Integration](https://pucora.io/images/documentation/velonetics-ide-integration.png)
+![IDE Integration](https://pucora.io/images/documentation/pucora-ide-integration.png)
 
 You can also use sub-schemas if needed. The `pucora.json` file is the main schema that references other sub-schemas with the `$ref` attribute.
 

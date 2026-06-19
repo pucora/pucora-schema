@@ -18,7 +18,7 @@
                         10
                     ]
                 },
-                "service_name": "velonetics_middle_service",
+                "service_name": "pucora_middle_service",
                 "metric_reporting_period": 0,
                 "trace_sample_rate": 0.25,
                 "deploy_env": "test",

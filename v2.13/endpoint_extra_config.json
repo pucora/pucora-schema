@@ -267,7 +267,7 @@
       "type": "object"
     },
     "websocket": {
-      "description": "Enables [WebSocket communication (RFC-6455)](https://github.com/pucora/velonetics-ce/blob/main/docs/websockets.md)",
+      "description": "Enables [WebSocket communication (RFC-6455)](https://github.com/pucora/pucora-ce/blob/main/docs/websockets.md)",
       "$ref": "websocket.json",
       "type": "object"
     }

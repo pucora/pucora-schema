@@ -1155,7 +1155,7 @@
         "user": {
           "title": "User",
           "description": "The username you will send as NTLM authentication user.\n\nSee: https://pucora.io/docs/enterprise/authentication/ntlm/",
-          "examples": [ "veloneticsclient" ],
+          "examples": [ "pucoraclient" ],
           "type": "string"
         }
       },
@@ -6012,7 +6012,7 @@
               "client_name": {
                 "title": "Client name",
                 "description": "You can set how this connection shows in Redis when listing all the connections `CONN LIST`",
-                "examples": [ "velonetics_pool" ],
+                "examples": [ "pucora_pool" ],
                 "type": "string"
               },
               "conn_max_idle_time": {
@@ -6173,7 +6173,7 @@
               "client_name": {
                 "title": "Client name",
                 "description": "You can set how this connection shows in Redis when listing all the connections `CONN LIST`",
-                "examples": [ "velonetics_pool" ],
+                "examples": [ "pucora_pool" ],
                 "type": "string"
               },
               "conn_max_idle_time": {

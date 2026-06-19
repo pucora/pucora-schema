@@ -107,7 +107,7 @@
                         "brokers": [
                           "localhost:49092"
                         ],
-                        "client_id": "velonetics_async_agent",
+                        "client_id": "pucora_async_agent",
                         "client_tls": {
                           "allow_insecure_connections": false,
                           "ca_certs": [
@@ -147,7 +147,7 @@
                         "brokers": [
                           "localhost:49092"
                         ],
-                        "client_id": "velonetics_async_agent",
+                        "client_id": "pucora_async_agent",
                         "client_tls": {
                           "allow_insecure_connections": false,
                           "ca_certs": [
@@ -174,7 +174,7 @@
         ],
         "extra_config": {
           "telemetry/opentelemetry": {
-            "service_name": "velonetics_prometheus_service",
+            "service_name": "pucora_prometheus_service",
             "metric_reporting_period": 1,
             "trace_sample_rate": 1,
             "exporters": {
