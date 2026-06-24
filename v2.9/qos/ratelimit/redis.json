@@ -72,8 +72,8 @@
     },
     "strategy": {
       "title": "Strategy",
-      "description": "Available when using `client_max_rate`. Sets the strategy you will use to set client counters. Choose `ip` when the restrictions apply to the client's IP address, or set it to `header` when there is a header that identifies a user uniquely. That header must be defined with the `key` entry.\n\nSee: https://pucora.in/docs/enterprise/throttling/global-rate-limit/",
-      "enum": [ "ip", "header", "param" ]
+      "description": "Available when using `client_max_rate`. Sets the strategy you will use to set client counters. Choose `ip` when the restrictions apply to the client's IP address, or set it to `header` when there is a header that identifies a user uniquely. That header must be defined with the `key` entry. Use `jwt` for JWT-based identification.\n\nSee: https://pucora.in/docs/enterprise/throttling/global-rate-limit/",
+      "enum": [ "ip", "header", "param", "jwt" ]
     }
   }
 }
